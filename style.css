@@ -1,0 +1,77 @@
+/*
+ * Seletor para o título principal da página.
+ * Estiliza todos os elementos <h1>.
+ */
+h1 {
+    /* Define a cor do texto do título como verde. */
+    color: green;
+
+    /* * Define o tamanho da fonte do título.
+     * O valor de 1.3rem é relativo ao tamanho de fonte da raiz do documento, 
+     * o que ajuda na acessibilidade. 
+     */
+    font-size: 1.3rem;
+}
+
+
+/*
+ * Seletor para os links dentro do menu de navegação.
+ * A sintaxe ".links a" garante que apenas os links <a> dentro do elemento com a classe "links" sejam estilizados.
+ */
+.links a {
+    /*
+     * Define a cor do texto dos links para um tom de azul escuro.
+     * O valor #2c3e50 é um código hexadecimal.
+     */
+    color: #2c3e50;
+
+    /*
+     * Estiliza a linha de sublinhado dos links.
+     * "underline": Adiciona uma linha de sublinhado.
+     * "wavy": Define o estilo da linha como ondulada.
+     * "#08d3b8": Define a cor da linha como um verde-água.
+     */
+    text-decoration: underline wavy #08d3b8;
+
+}
+
+
+/*
+ * Seletor para o parágrafo de introdução.
+ * Estiliza qualquer elemento com a classe "info-text".
+ */
+.info-text {
+    /* Alinha o texto do parágrafo à esquerda. */
+    text-align: left;
+
+    /*
+     * Define a largura máxima do parágrafo em 600 pixels.
+     * Isso faz com que o texto quebre em mais linhas em telas grandes,
+     * melhorando a leitura. Em telas menores, o elemento se ajusta
+     * automaticamente para não ultrapassar a largura da tela.
+     */
+    max-width: 600px;
+
+    /*
+     * Define a cor do texto do parágrafo para um tom de azul muito escuro.
+     * O valor #031e3a é um código hexadecimal.
+     */
+    color: #031e3a;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 300%;    
+}
+
+.seta{
+    width: 20px; /* Define a largura da seta */
+    height: 20px; /* Define a altura da seta */
+    margin-left: 10px; /* Espaço à esquerda da seta */
+    vertical-align: middle; /* Alinha verticalmente ao meio do texto */
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+}
